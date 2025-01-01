@@ -1,0 +1,9 @@
+/cloud_to_pgm:
+  ros__parameters:
+    lasermap_topic: '/Laser_map'
+    parent_path: '/home/spr/Sentry_ws/src/SPR-RM-Sentry/src/rm_map/pointcloud_to_pgm/pgm/'            
+    senser_range_min: -0.2 #-0.2    
+    senser_range_max: 0.1    #0.1            
+    down_sample_every_k_points: 20      
+    num_poins: 2             
+    radius: 0.05

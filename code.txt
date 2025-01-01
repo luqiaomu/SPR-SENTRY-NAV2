@@ -1,0 +1,9 @@
+ros2 run nav2_map_server map_saver_cli -f ~/map
+
+ros2 launch pointcloud_to_pgm cloud_to_pgm.launch.py 
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+ros2 launch pointcloud_check pcd_publisher_rviz.launch.py
+
+

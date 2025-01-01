@@ -1,0 +1,7 @@
+
+sudo intel_gpu_top
+colcon build --packages-select ros2_livox_simulation
+livox_ros_driver2
+
+
+
